@@ -1,4 +1,4 @@
-package be.vdab;
+package be.vdab.entities;
 
 import java.util.List;
 import java.util.Observable;

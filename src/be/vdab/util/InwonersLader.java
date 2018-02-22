@@ -7,7 +7,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-import be.vdab.Inwoner;
+import be.vdab.entities.Inwoner;
 
 public class InwonersLader {
 	private List<Inwoner> inwoners;

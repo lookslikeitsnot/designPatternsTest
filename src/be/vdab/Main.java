@@ -1,13 +1,15 @@
 package be.vdab;
 
+import be.vdab.entities.EilandSpel;
+
 public class Main {
 
 	public static void main(String[] args) {
 		
 		EilandSpel es =  new EilandSpel();
-		EilandSpel esm =  new EilandSpel("C:/TestFles/inwoners.txt");
+		EilandSpel esm =  new EilandSpel("inwoners.txt");
 		
-		es.setEilandBestand("C:/TestFiles/inwoners.txt");
+		es.setEilandBestand("inwoners.txt");
 		es.startSpel();
 		es.toonInwoners();
 		es.vulkaanUitbarsting();

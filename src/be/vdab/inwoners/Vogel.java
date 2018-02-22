@@ -1,6 +1,6 @@
 package be.vdab.inwoners;
 
-import be.vdab.Inwoner;
+import be.vdab.entities.Inwoner;
 
 public class Vogel extends Inwoner{
 	private static String reactie = "vliegt hoger";

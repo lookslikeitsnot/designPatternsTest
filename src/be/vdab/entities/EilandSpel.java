@@ -1,4 +1,4 @@
-package be.vdab;
+package be.vdab.entities;
 
 import be.vdab.util.InwonersLader;
 
@@ -45,7 +45,7 @@ public class EilandSpel {
 	}
 	
 	public void eindVulkaanUitbarsting() {
-		System.out.println("Er gebeurt plots een vulkaanuitbarsting!");
+		System.out.println("Alles word weer rustig...");
 		this.eiland.eindeVulkaanuitbarsting();
 	}
 	
